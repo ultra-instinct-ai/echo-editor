@@ -251,8 +251,8 @@ function shortcutClick(item: MenuItem) {
 
 const shortcutMenus = computed<ShortcutItem[]>(() => {
   const shortcuts = props.editor?.extensionManager.extensions.find(e => e.name === 'AI')?.options?.shortcuts
-  const mergedShortcuts = [...DEFAULT_SHORTCUTS, ...shortcuts]
 
+  const mergedShortcuts = shortcuts?.length > 0 ? shortcuts : DEFAULT_SHORTCUTS
   // 对菜单项进行本地化处理
   return mergedShortcuts.map(item => ({
     ...item,
