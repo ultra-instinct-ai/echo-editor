@@ -8,13 +8,13 @@ export interface CreateTablePayload extends GridSize {
 declare function __VLS_template(): {
     trigger?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<{
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<{
     disabled: {
         default: boolean;
     };
 }>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     "create-table": (payload: CreateTablePayload) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<{
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<{
     disabled: {
         default: boolean;
     };

@@ -1,6 +1,6 @@
 import { Editor } from '@tiptap/core';
 
-declare const _default: import('vue').DefineComponent<import('vue').ExtractPropTypes<{
+declare const _default: import('vue').DefineComponent<globalThis.ExtractPropTypes<{
     editor: {
         type: typeof Editor;
         required: true;
@@ -12,7 +12,7 @@ declare const _default: import('vue').DefineComponent<import('vue').ExtractPropT
 }>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     close: (...args: any[]) => void;
     generate: (...args: any[]) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<{
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<{
     editor: {
         type: typeof Editor;
         required: true;

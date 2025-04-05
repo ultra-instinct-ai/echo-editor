@@ -1,10 +1,10 @@
 import { SeparatorProps } from 'reka-ui';
 import { HTMLAttributes } from 'vue';
 
-declare const _default: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SeparatorProps & {
+declare const _default: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SeparatorProps & {
     class?: HTMLAttributes["class"];
     label?: string;
-}>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SeparatorProps & {
+}>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SeparatorProps & {
     class?: HTMLAttributes["class"];
     label?: string;
 }>>> & Readonly<{}>, {}, {}, {}, {}, string, import('vue').ComponentProvideOptions, true, {}, any>;

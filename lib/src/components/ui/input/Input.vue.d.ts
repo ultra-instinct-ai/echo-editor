@@ -1,12 +1,12 @@
 import { HTMLAttributes } from 'vue';
 
-declare const _default: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<{
+declare const _default: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<{
     defaultValue?: string | number;
     modelValue?: string | number;
     class?: HTMLAttributes["class"];
 }>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     "update:modelValue": (payload: string | number) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<{
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<{
     defaultValue?: string | number;
     modelValue?: string | number;
     class?: HTMLAttributes["class"];

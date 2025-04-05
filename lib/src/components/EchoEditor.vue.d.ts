@@ -7,7 +7,7 @@ declare function __VLS_template(): {
         editor: Editor;
     }): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<EchoEditorProps>, {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<EchoEditorProps>, {
     modelValue: string;
     output: string;
     dark: undefined;
@@ -28,7 +28,7 @@ declare const __VLS_component: import('vue').DefineComponent<import('vue').Extra
     enter: () => void;
     change: (value: EchoEditorOnChange) => void;
     "update:modelValue": (value: string | JSONContent) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<EchoEditorProps>, {
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<EchoEditorProps>, {
     modelValue: string;
     output: string;
     dark: undefined;

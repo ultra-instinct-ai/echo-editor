@@ -1,11 +1,11 @@
 import { ScrollAreaScrollbarProps } from 'reka-ui';
 import { HTMLAttributes } from 'vue';
 
-declare const _default: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<ScrollAreaScrollbarProps & {
+declare const _default: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<ScrollAreaScrollbarProps & {
     class?: HTMLAttributes["class"];
 }>, {
     orientation: string;
-}>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<ScrollAreaScrollbarProps & {
+}>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<ScrollAreaScrollbarProps & {
     class?: HTMLAttributes["class"];
 }>, {
     orientation: string;

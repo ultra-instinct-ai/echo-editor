@@ -4,12 +4,12 @@ import { HTMLAttributes } from 'vue';
 declare function __VLS_template(): {
     default?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<DropdownMenuCheckboxItemProps & {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<DropdownMenuCheckboxItemProps & {
     class?: HTMLAttributes["class"];
 }>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     "update:modelValue": (payload: boolean) => void;
     select: (event: Event) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<DropdownMenuCheckboxItemProps & {
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<DropdownMenuCheckboxItemProps & {
     class?: HTMLAttributes["class"];
 }>>> & Readonly<{
     "onUpdate:modelValue"?: ((payload: boolean) => any) | undefined;

@@ -5,13 +5,13 @@ interface MenuItem {
     children?: MenuItem[];
     [key: string]: any;
 }
-declare const _default: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<{
+declare const _default: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<{
     items: MenuItem[];
 }>>, {
     handleKeyDown: (e: KeyboardEvent) => void;
 }, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     itemClick: (item: MenuItem) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<{
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<{
     items: MenuItem[];
 }>>> & Readonly<{
     onItemClick?: ((item: MenuItem) => any) | undefined;

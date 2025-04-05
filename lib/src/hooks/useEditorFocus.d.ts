@@ -13,5 +13,5 @@ export interface UseEditorFocusOptions {
  * 用于防止在操作工具栏等界面元素时出现边框闪烁的问题
  */
 export declare function useEditorFocus({ editor, wait }: UseEditorFocusOptions): {
-    isFocused: import('vue').Ref<boolean, boolean>;
+    isFocused: globalThis.Ref<boolean, boolean>;
 };

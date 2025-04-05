@@ -3,12 +3,12 @@ import { MenuListProps } from './types';
 declare function onKeyDown({ event }: {
     event: any;
 }): boolean;
-declare const _default: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<MenuListProps>, {
+declare const _default: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<MenuListProps>, {
     items: undefined;
     command: undefined;
 }>>, {
     onKeyDown: typeof onKeyDown;
-}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<MenuListProps>, {
+}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<MenuListProps>, {
     items: undefined;
     command: undefined;
 }>>> & Readonly<{}>, {

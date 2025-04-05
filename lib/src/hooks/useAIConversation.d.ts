@@ -1,9 +1,9 @@
 import { Editor } from '@tiptap/vue-3';
 
 export declare function useAIConversation(editor: Editor): {
-    result: import('vue').Ref<string, string>;
-    status: import('vue').Ref<"init" | "generating" | "completed", "init" | "generating" | "completed">;
-    conversationHistory: import('vue').Ref<{
+    result: globalThis.Ref<string, string>;
+    status: globalThis.Ref<"init" | "generating" | "completed", "init" | "generating" | "completed">;
+    conversationHistory: globalThis.Ref<{
         role: string;
         content: string;
     }[], {

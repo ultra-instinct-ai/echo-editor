@@ -6,11 +6,11 @@ interface MenuCheckboxItemProps {
 declare function __VLS_template(): {
     default?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<MenuCheckboxItemProps & {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<MenuCheckboxItemProps & {
     class?: HTMLAttributes["class"];
 }>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     select: () => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<MenuCheckboxItemProps & {
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<MenuCheckboxItemProps & {
     class?: HTMLAttributes["class"];
 }>>> & Readonly<{
     onSelect?: (() => any) | undefined;

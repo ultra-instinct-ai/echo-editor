@@ -5,7 +5,7 @@ import { ToggleVariants } from '.';
 declare function __VLS_template(): {
     default?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<ToggleProps & {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<ToggleProps & {
     class?: HTMLAttributes["class"];
     variant?: ToggleVariants["variant"];
     size?: ToggleVariants["size"];
@@ -15,7 +15,7 @@ declare const __VLS_component: import('vue').DefineComponent<import('vue').Extra
     disabled: boolean;
 }>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     "update:modelValue": (value: boolean) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<ToggleProps & {
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<ToggleProps & {
     class?: HTMLAttributes["class"];
     variant?: ToggleVariants["variant"];
     size?: ToggleVariants["size"];

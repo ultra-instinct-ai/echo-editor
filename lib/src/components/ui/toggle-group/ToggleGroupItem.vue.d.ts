@@ -7,11 +7,11 @@ type ToggleGroupVariants = VariantProps<typeof toggleVariants>;
 declare function __VLS_template(): {
     default?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<ToggleGroupItemProps & {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<ToggleGroupItemProps & {
     class?: HTMLAttributes["class"];
     variant?: ToggleGroupVariants["variant"];
     size?: ToggleGroupVariants["size"];
-}>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<ToggleGroupItemProps & {
+}>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<ToggleGroupItemProps & {
     class?: HTMLAttributes["class"];
     variant?: ToggleGroupVariants["variant"];
     size?: ToggleGroupVariants["size"];

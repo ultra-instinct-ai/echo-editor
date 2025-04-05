@@ -24,8 +24,8 @@ declare class Locale {
 }
 declare const locale: Locale;
 declare const useLocale: () => {
-    lang: import('vue').Ref<string, string>;
-    t: import('vue').ComputedRef<(path: string) => string>;
+    lang: globalThis.Ref<string, string>;
+    t: globalThis.ComputedRef<(path: string) => string>;
 };
 export default locale;
 export { Locale, useLocale, zhHans, en };

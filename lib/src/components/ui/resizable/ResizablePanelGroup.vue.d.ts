@@ -4,11 +4,11 @@ import { HTMLAttributes } from 'vue';
 declare function __VLS_template(): {
     default?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SplitterGroupProps & {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SplitterGroupProps & {
     class?: HTMLAttributes["class"];
 }>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     layout: (val: number[]) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SplitterGroupProps & {
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SplitterGroupProps & {
     class?: HTMLAttributes["class"];
 }>>> & Readonly<{
     onLayout?: ((val: number[]) => any) | undefined;

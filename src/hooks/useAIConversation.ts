@@ -28,7 +28,7 @@ export function useAIConversation(editor: Editor) {
       }
 
       abortController.value = new AbortController()
-      const stream = await AIOptions.completions(conversationHistory.value, abortController.value.signal)
+      const stream = await AIOptions.completions(conversationHistory.value, abortController.value.signal, editor)
       if (!stream) {
         throw new Error('Failed to create stream')
       }
@@ -80,6 +80,6 @@ export function useAIConversation(editor: Editor) {
     conversationHistory,
     handleCompletion,
     resetConversation,
-    stopGeneration
+    stopGeneration,
   }
 }

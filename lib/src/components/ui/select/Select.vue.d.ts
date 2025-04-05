@@ -3,10 +3,10 @@ import { SelectRootProps } from 'reka-ui';
 declare function __VLS_template(): {
     default?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SelectRootProps<import('reka-ui').AcceptableValue>>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SelectRootProps<import('reka-ui').AcceptableValue>>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     "update:modelValue": (value: import('reka-ui').AcceptableValue) => void;
     "update:open": (value: boolean) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SelectRootProps<import('reka-ui').AcceptableValue>>>> & Readonly<{
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SelectRootProps<import('reka-ui').AcceptableValue>>>> & Readonly<{
     "onUpdate:modelValue"?: ((value: import('reka-ui').AcceptableValue) => any) | undefined;
     "onUpdate:open"?: ((value: boolean) => any) | undefined;
 }>, {}, {}, {}, {}, string, import('vue').ComponentProvideOptions, true, {}, any>;

@@ -4,7 +4,7 @@ import { HTMLAttributes } from 'vue';
 declare function __VLS_template(): {
     default?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<MenubarSubContentProps & {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<MenubarSubContentProps & {
     class?: HTMLAttributes["class"];
 }>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     escapeKeyDown: (event: KeyboardEvent) => void;
@@ -22,7 +22,7 @@ declare const __VLS_component: import('vue').DefineComponent<import('vue').Extra
     openAutoFocus: (event: Event) => void;
     closeAutoFocus: (event: Event) => void;
     entryFocus: (event: Event) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<MenubarSubContentProps & {
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<MenubarSubContentProps & {
     class?: HTMLAttributes["class"];
 }>>> & Readonly<{
     onEscapeKeyDown?: ((event: KeyboardEvent) => any) | undefined;

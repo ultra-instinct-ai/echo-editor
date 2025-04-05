@@ -1,12 +1,12 @@
 import { SplitterResizeHandleProps } from 'reka-ui';
 import { HTMLAttributes } from 'vue';
 
-declare const _default: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SplitterResizeHandleProps & {
+declare const _default: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SplitterResizeHandleProps & {
     class?: HTMLAttributes["class"];
     withHandle?: boolean;
 }>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     dragging: (isDragging: boolean) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SplitterResizeHandleProps & {
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<SplitterResizeHandleProps & {
     class?: HTMLAttributes["class"];
     withHandle?: boolean;
 }>>> & Readonly<{

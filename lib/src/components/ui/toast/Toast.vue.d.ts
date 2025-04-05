@@ -3,7 +3,7 @@ import { ToastProps } from '.';
 declare function __VLS_template(): {
     default?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<ToastProps>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<ToastProps>>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {
     "update:open": (value: boolean) => void;
     escapeKeyDown: (event: KeyboardEvent) => void;
     pause: () => void;
@@ -44,7 +44,7 @@ declare const __VLS_component: import('vue').DefineComponent<import('vue').Extra
             y: number;
         };
     }>, "currentTarget">) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_TypePropsToRuntimeProps<ToastProps>>> & Readonly<{
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_TypePropsToRuntimeProps<ToastProps>>> & Readonly<{
     "onUpdate:open"?: ((value: boolean) => any) | undefined;
     onEscapeKeyDown?: ((event: KeyboardEvent) => any) | undefined;
     onPause?: (() => any) | undefined;

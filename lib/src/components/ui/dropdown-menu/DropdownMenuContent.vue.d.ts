@@ -4,7 +4,7 @@ import { HTMLAttributes } from 'vue';
 declare function __VLS_template(): {
     default?(_: {}): any;
 };
-declare const __VLS_component: import('vue').DefineComponent<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<DropdownMenuContentProps & {
+declare const __VLS_component: import('vue').DefineComponent<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<DropdownMenuContentProps & {
     class?: HTMLAttributes["class"];
 }>, {
     sideOffset: number;
@@ -22,7 +22,7 @@ declare const __VLS_component: import('vue').DefineComponent<import('vue').Extra
         originalEvent: FocusEvent;
     }>) => void;
     closeAutoFocus: (event: Event) => void;
-}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<DropdownMenuContentProps & {
+}, string, import('vue').PublicProps, Readonly<globalThis.ExtractPropTypes<__VLS_WithDefaults<__VLS_TypePropsToRuntimeProps<DropdownMenuContentProps & {
     class?: HTMLAttributes["class"];
 }>, {
     sideOffset: number;
