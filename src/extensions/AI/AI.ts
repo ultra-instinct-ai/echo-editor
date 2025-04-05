@@ -1,6 +1,7 @@
 import { Node } from '@tiptap/core'
 import ActionButton from './components/AIButton.vue'
 import { GeneralOptions } from '@/type'
+import { Editor } from '@tiptap/vue-3'
 
 export interface MenuItem {
   label: string
@@ -8,7 +9,11 @@ export interface MenuItem {
   children?: MenuItem[]
 }
 export interface AIOptions extends GeneralOptions<AIOptions> {
-  completions: (history: Array<{ role: string; content: string }>, signal?: AbortSignal) => Promise<any>
+  completions: (
+    history: Array<{ role: string; content: string }>,
+    signal?: AbortSignal,
+    editor?: Editor
+  ) => Promise<any>
   /**
    * AI Shortcuts Menu
    */

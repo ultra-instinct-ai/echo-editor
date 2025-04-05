@@ -1,5 +1,6 @@
 import { Node } from '@tiptap/core';
 import { GeneralOptions } from '../../type';
+import { Editor } from '@tiptap/vue-3';
 
 export interface MenuItem {
     label: string;
@@ -10,7 +11,7 @@ export interface AIOptions extends GeneralOptions<AIOptions> {
     completions: (history: Array<{
         role: string;
         content: string;
-    }>, signal?: AbortSignal) => Promise<any>;
+    }>, signal?: AbortSignal, editor?: Editor) => Promise<any>;
     /**
      * AI Shortcuts Menu
      */
