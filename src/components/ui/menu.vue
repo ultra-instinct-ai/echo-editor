@@ -9,8 +9,8 @@
       :key="item.label"
       :class="[
         'relative flex items-center rounded-sm px-2 py-1.5 text-sm outline-none transition-colors cursor-pointer',
-        item.isSelected ? 'bg-accent text-accent-foreground' : '',
-        'hover:bg-accent hover:text-accent-foreground',
+        item.isSelected ? 'bg-primary' : '',
+        'hover:bg-primary',
       ]"
       @mouseenter="handleMouseEnter(index)"
       @click="handleClick(item)"
